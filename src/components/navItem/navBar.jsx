@@ -54,7 +54,7 @@ const NavBar = () => {
             Home
           </NavLink>
           <NavLink
-            to="/products"
+            to="/"
             className={({ isActive }) =>
               `py-2 px-5 rounded-[6px] cursor-pointer ${
                 isActive ? "bg-[#F8F8F8] font-bold" : ""
@@ -165,7 +165,7 @@ const NavBar = () => {
               Home
             </NavLink>
             <NavLink
-              to="/products"
+              to="/"
               className={({ isActive }) =>
                 `block py-2 px-4 rounded-md ${
                   isActive ? "bg-[#F8F8F8] font-bold" : ""
