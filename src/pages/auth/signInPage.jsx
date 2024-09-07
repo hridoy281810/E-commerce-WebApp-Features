@@ -42,7 +42,7 @@ const SignInPage = () => {
           showConfirmButton: false,
           timer: 1500
         });
-        navigate('/products'); 
+        navigate('/'); 
       })
       .catch((error) => {
         setError(error.message);
@@ -60,7 +60,7 @@ const SignInPage = () => {
           showConfirmButton: false,
           timer: 1500
         });
-        navigate('/products'); 
+        navigate('/'); 
       })
       .catch((error) => {
         setError(error.message);

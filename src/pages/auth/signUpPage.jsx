@@ -97,7 +97,7 @@ const SignUpPage = () => {
           showConfirmButton: false,
           timer: 1500
         });
-        navigate('/products')
+        navigate('/')
       })
       .catch(error => {
         const errorM = error.message;

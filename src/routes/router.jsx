@@ -8,11 +8,11 @@ import Blog from '../pages/blog/blog';
 import Payment from '../pages/chackout/payment';
 
 import SignUpPage from '../pages/auth/signUpPage';
-import SignInPage from '../pages/auth/SignIn';
+import SignInPage from '../pages/auth/signInPage';
 
 const router = createBrowserRouter([
   {
-    path: '/products',
+    path: '/',
     element: <ProtectedRoute element={App} />,
   },
   {
