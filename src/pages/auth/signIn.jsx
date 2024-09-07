@@ -6,7 +6,7 @@ import logo from '../../assets/icon.png';
 import backgraoudImage from '../../assets/chris-lee-70l1tDAI6rM-unsplash 1.png';
 import useAuth from "../../api/useAuth"; 
 import Swal from "sweetalert2";
-const SignIn = () => {
+const SignInPage = () => {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [showPassword, setShowPassword] = useState(false);
@@ -220,4 +220,4 @@ const SignIn = () => {
   );
 };
 
-export default SignIn;
+export default SignInPage;

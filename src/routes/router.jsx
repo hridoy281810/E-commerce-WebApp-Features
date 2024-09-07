@@ -1,12 +1,14 @@
 
 import { createBrowserRouter } from 'react-router-dom';
-import SignIn from '../pages/auth/SignIn';
-import SignUp from '../pages/auth/SignUp';
+
 import App from '../App';
 import CartOverviewPage from '../pages/products/overview';
 import ProtectedRoute from '../provider/protectedRoute'
 import Blog from '../pages/blog/blog';
 import Payment from '../pages/chackout/payment';
+
+import SignUpPage from '../pages/auth/signUpPage';
+import SignInPage from '../pages/auth/SignIn';
 
 const router = createBrowserRouter([
   {
@@ -23,11 +25,11 @@ const router = createBrowserRouter([
   },
   {
     path: '/sign-in',
-    element: <SignIn />,
+    element: <SignInPage />,
   },
   {
     path: '/sign-up',
-    element: <SignUp />,
+    element: <SignUpPage />,
   },
   {
     path: '/blog',

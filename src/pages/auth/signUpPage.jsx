@@ -8,7 +8,7 @@ import { useForm } from "react-hook-form";
 import useAuth from "../../api/useAuth";
 import Swal from "sweetalert2";
 
-const SignUp = () => {
+const SignUpPage = () => {
   const [showPassword, setShowPassword] = useState(false);
   const [hasValue, setHasValue] = useState({
     firstName: false,
@@ -89,6 +89,7 @@ const SignUp = () => {
     googleLogin()
       .then(result => {
         const loggedUser = result.user;
+    
         Swal.fire({
           position: "top-end",
           icon: "success",
@@ -295,4 +296,4 @@ const SignUp = () => {
   );
 };
 
-export default SignUp;
+export default SignUpPage;
